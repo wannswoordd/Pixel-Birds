@@ -101,7 +101,7 @@ function criabird() {
       bird.velocidade =  - bird.pulo;
       console.log('[depois]', bird.velocidade);
     },
-    gravidade: 0.25,
+    gravidade: 0.20,
     velocidade: 0,
     atualiza() {
       if(fazColisao(bird, globais.chao)) {
