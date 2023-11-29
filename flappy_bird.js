@@ -302,7 +302,7 @@ function criaPlacar() {
       contexto.fillText(`${placar.pontuacao}`, canvas.width - 10, 35);
     },
     atualiza() {
-      const intervaloDeFrames = 20;
+      const intervaloDeFrames = 30;
       const passouOIntervalo = frames % intervaloDeFrames === 0;
 
       if(passouOIntervalo) {
