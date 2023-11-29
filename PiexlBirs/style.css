@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./ceu-de-pixel-art-horizonte-de-8-bits-de-nuvens-paisagem-de-nuvem-de-videogame-retro-e-fundo-nublado_.png);
+}
+
+canvas{
+    display:block;
+    border:black 1px solid;
+  
+}
+#sair{
+    background-color: rgb(19, 90, 138);
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 1px;
+}
+
+#sair:hover{
+    background-color: aliceblue;
+    animation:but 2s ;
+}
+
+@keyframes but{
+    from{
+        background-color: rgb(238, 238, 238);
+    }
+
+    to{
+        background-color: aqua;
+    }
+}
+
+#menu{
+    margin-left: 50%;
+    background-color: rgb(19, 90, 138);
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#menu:hover{
+    background-color: aliceblue;
+    animation:but 2s ;
+}
+
