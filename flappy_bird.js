@@ -15,7 +15,7 @@ const planoDeFundo = {
   altura: 204,
   x: 0,
   y: canvas.height - 204,
-  desenha() {
+  desenha(){
     contexto.fillStyle = '#70c5ce';
     contexto.fillRect(0,0, canvas.width, canvas.height)
 
